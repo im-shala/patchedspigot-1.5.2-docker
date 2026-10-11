@@ -1,19 +1,16 @@
-# Minecraft 1.8.8 Paperspigot Server Docker
+# Minecraft 1.5.2 Patched Spigot Server Docker
 
-A Docker Compose setup for running a Paper 1.8.8 (1.8.9 compatible) Minecraft server in a container environment.
+A Docker Compose setup for running a NBT Patced Spigot 1.5.2 Minecraft server in a container environment.
 
 ## About
 
-This project packages a Paper Minecraft server into a Docker image, providing an easy way to recreate the same server environment on another machine.
+This project packages a Spigot Minecraft server into a Docker image, providing an easy way to recreate the same server environment on another machine.
 
-The server binary is downloaded automatically during the image build process.
-
-This project started as a personal project to learn Docker, container lifecycle management, and server deployment practices through a real-world workload.
+The server binary is included in the repository.
 
 ## Features
 
-- Automated Java runtime setup
-- Automatic Paper server binary provisioning
+- Automated setup
 - Docker Compose based deployment
 - Separated application and runtime data
 
@@ -27,8 +24,8 @@ This project started as a personal project to learn Docker, container lifecycle 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/im-shala/papermc-1.8.8-docker.git
-cd papermc-1.8.8-docker
+git clone https://github.com/im-shala/patchedspigot-1.5.2-docker.git
+cd paperspigot-1.5.2-docker
 ```
 
 2. Build the docker image:
